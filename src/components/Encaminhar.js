@@ -1,12 +1,12 @@
 import React from 'react'
-
-
 import axios from 'axios'
+import {Context} from '../Logado'
 
 const Encaminhar = ({email}) => {
 
-    // console.log(email)
-    const [remetente,setRemetente]=React.useState(email.destinatario);
+    const {logado} = React.useContext(Context)
+
+    const [remetente,setRemetente]=React.useState(logado.email);
     const [destinatario,setDestinatario]=React.useState(email.remetente);
      
     const [assunto,setAssunto]=React.useState(email.assunto);
@@ -37,7 +37,7 @@ const Encaminhar = ({email}) => {
 
         <>
         {/* <button type="button" className="btn  escrever-btn" data-toggle="modal" data-target="#responder"><img src={cross} alt="escrever" /></button> */}
-        <i className="ml-2 fa fa-share botao responder-btn" data-toggle="modal" data-target="#encaminhar" title='responder' ></i>
+        <i className="ml-2 fa fa-share botao responder-btn" data-toggle="modal" data-target="#encaminhar" title='encaminhar' ></i>
         
         <div className="modal  fade" id="encaminhar" tabIndex="-1" aria-labelledby="encaminharLabel" aria-hidden="true">
         <div className="modal-dialog">
