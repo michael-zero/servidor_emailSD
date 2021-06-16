@@ -1,3 +1,8 @@
+# Servidor de Email 
+Uma API que simula o troca de mensagens. 
+
+OBS: Você acessa colocando o nome de um dos usuários listados abaixo. Toda vez que você atualizar a página você será "deslogado" e será preciso colocar o nome para entrar de novo.
+
 # Funcionalidades Implementadas 
 1. Enviar Email 
 2. Deletar Email
