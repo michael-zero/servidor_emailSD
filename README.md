@@ -1,4 +1,5 @@
 # Servidor de Email 
+Link de um pequeno video: https://www.youtube.com/watch?v=1xl1jDWZy5Y
 Uma API que simula o troca de mensagens. 
 
 Banco de dados na própria aplicação:
