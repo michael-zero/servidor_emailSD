@@ -1,6 +1,8 @@
 # Servidor de Email 
 Uma API que simula o troca de mensagens. 
 
+Banco de dados na própria aplicação:
+`Sqlite3`
 OBS: Você acessa colocando o nome de um dos usuários listados abaixo. Toda vez que você atualizar a página você será "deslogado" e será preciso colocar o nome para entrar de novo.
 
 # Funcionalidades Implementadas 
