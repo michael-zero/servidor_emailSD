@@ -1,12 +1,17 @@
-# Instalar Dependências
+# Funcionalidades Implementadas 
+1. Enviar Email 
+2. Deletar Email
+3. Responder Email 
+4. Encaminhar Email
 
-npm install 
+# Instalar dependências 
+Abra o Vscode ou com o terminal execute o comando 
 
-# Para rodar o servidor
+`npm install`
 
-npm run server
+# Rodar o servidor 
+`npm run server`
 
-## Rodar o frontend
-
-npm start
+# Rodar frontend
+`npm start`
 
