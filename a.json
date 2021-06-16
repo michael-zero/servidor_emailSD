@@ -1,0 +1,25 @@
+[{
+    "id": 1,
+    "nome": "admin",
+    "email": "admin@admin.com",
+    "senha": "admin",
+    "createdAt": "2021-06-12T13:49:16.644Z",
+    "updatedAt": "2021-06-12T13:49:16.644Z",
+    "MeusEmails": [{
+        "id": 1,
+        "remetente": "mm@yahoo.com",
+        "destinatario": "admin@admin.com",
+        "mensagem": "Me empresta uma ficha do RU",
+        "createdAt": "2021-06-13T14:28:44.127Z",
+        "updatedAt": "2021-06-13T14:28:44.127Z",
+        "usuarioId": 1
+    }, {
+        "id": 2,
+        "remetente": "mm@yahoo.com",
+        "destinatario": "admin@admin.com",
+        "mensagem": "Testando o envio de email",
+        "createdAt": "2021-06-13T15:18:04.686Z",
+        "updatedAt": "2021-06-13T15:18:04.686Z",
+        "usuarioId": 1
+    }]
+}]
